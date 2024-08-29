@@ -1,5 +1,20 @@
 # Python library for the Pololu Dual G2 High-Power Motor Drivers for Raspberry Pi
 
+## 사용방법 (2024.08.29)
+1. 아래 라이브러리 설치
+```
+sudo apt install python-pigpio
+```
+
+2. start the `pigpiod` daemon, run:
+
+```
+sudo systemctl start pigpiod
+```
+3. 아래 코드 수정후 실행
+dual_g2_hpmd_rpi_mod.py
+
+
 Version: 2.0.0<br>
 Release Date: 2019-10-15<br>
 [www.pololu.com](https://www.pololu.com/)
